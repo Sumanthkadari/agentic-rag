@@ -1,0 +1,9 @@
+langchain
+langchain-community
+bs4
+PyPDF2
+numpy
+pandas 
+scikit-learn
+sentence_transformers
+chromadb
