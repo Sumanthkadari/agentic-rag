@@ -7,3 +7,5 @@ pandas
 scikit-learn
 sentence_transformers
 chromadb
+uvicorn
+python-dotenv
