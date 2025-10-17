@@ -1,0 +1,23 @@
+8. Example Queries
+-------------------
+Domain: Lucid Motors
+Example Query: “How do I reset the Lucid Air infotainment system?”
+Response Summary: Returns procedural reset steps
+
+Domain: Wells Fargo
+Example Query: “What is wells fargo?”
+Response Summary: Returns official instructions and links
+
+Domain: Multi-step
+Example Query: “How do I reset my Lucid system and troubleshoot display errors?”
+Response Summary: Planner splits into two questions and synthesizes combined response
+
+--------------------------------------
+
+9. Future Improvements
+-----------------------
+1. Add LangGraph-based agent orchestration
+2. Integrate Ragas evaluation metrics (faithfulness, context precision)
+3. Enable MongoDB-based persistence for query logs
+4. Add streaming generation using FastAPI’s async mode
+5. Extend multi-modal grounding (images, PDFs, web links)
