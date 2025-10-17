@@ -1,1 +1,12 @@
-venv 
+.env
+venv
+# Ignore all Python cache folders and files
+**/__pycache__/
+
+
+utils/ingestion/__pycache__
+
+
+# Ignore database, data, and cache folders
+chroma_db/
+data/

@@ -52,5 +52,3 @@ collection.add(
 )
 print("Embeddings stored in ChromaDB successfully!")
 print("Collections in DB:", client.list_collections())
-
-
